@@ -37,6 +37,6 @@ function showList(array) {
 }
 
 document.addEventListener("DOMContentLoaded", (e) => {
-  const correctArray = strangeArray.filter(objeto => typeof objeto === "string")
+  const correctArray = strangeArray.filter(objeto => typeof objeto === "string").sort()
   showList(correctArray);
 });
