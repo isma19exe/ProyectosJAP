@@ -24,7 +24,7 @@ const strangeArray = [
   "JavaScript",
 ];
 
-// Función que recibe por parámetro un array y muestra sus elementos en pantalla
+// Función que recibe pora parámetro un array y muestra sus elementos en pantalla
 function showList(array) {
   const container = document.getElementById("list");
   container.innerHTML = "";
